@@ -1,0 +1,151 @@
+meta:
+  name: bateer_the-one
+  author: tuantran39
+  engine: 4.2.1
+  version: 1.0.0
+points:
+  key:
+    padding: cy + 2
+  zones:
+    main:
+      rotate: -15
+      rows:
+        bottom:
+        middle:
+        top:
+      columns:
+        pinkie:
+        ring:
+          key.splay: -5
+          key.stagger: 5
+          key.origin: [0, -20]
+        middle:
+          key.stagger: 8
+          key.splay: -2
+          key.spread: 20
+        index:
+          key.stagger: -8
+          key.splay: -5
+          key.spread: 20
+        far:
+          key.stagger: -8
+          key.splay: -5
+          key.spread: 20
+    thumb:
+      anchor:
+        ref: main_far_bottom
+        shift: [0, -30]
+      rows:
+        bottom:
+        top:
+      columns:
+        layer:
+          key.shift: [3, 0]
+          key.stagger: 2
+          key.splay: -15
+          rows.top.skip: true
+        key_up_left:
+          rows.bottom.skip: true
+          key.shift: [3, 1]
+        key_up_right:
+          key.shift: [4, 1]
+          rows.bottom.skip: true
+    space_bar:
+      anchor: 
+        ref: thumb_key_up_left_bottom
+        shift: [15, -2]
+      key.width: 2.25cx
+    
+  mirror: &mirror
+    ref: main_far_bottom
+    distance: 150
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      size: [cx, cy]
+    - what: rectangle
+      where: [space_bar]
+      asym: both
+      size: [2.25cx, cx]
+  keys:
+    - what: rectangle
+      where: true
+      size: [cx - 0.5, cy - 0.5]
+    - what: rectangle
+      where: [space_bar]
+      asym: both
+      size: [2.25cx - 0.5, cy -0.5]
+  board_left:
+    - what: polygon
+      operation: stack
+      fillet: 3
+      points:
+        - ref: main_pinkie_bottom
+          shift: [-14, -12]
+        - ref: main_pinkie_top
+          shift: [-14, 12]
+        - ref: main_ring_top
+          shift: [-5, 14]
+        - ref: main_middle_top
+          shift: [0, 15]
+        - ref: main_index_top
+          shift: [0, 15]
+        - ref: main_far_top
+          shift: [13, 15]
+        - ref: main_far_bottom
+          shift: [13, 10]
+        - ref: thumb_key_up_left_top
+          shift: [0, 14]
+        - ref: thumb_key_up_right_top
+          shift: [14, 13]
+        - ref: space_bar
+          shift: [24, -14]
+        - ref: thumb_layer_bottom
+          shift: [-10, -14]
+        - ref: main_index_bottom
+          shift: [-12, -18]
+  board_right:
+    - what: polygon
+      operation: stack
+      fillet: 3
+      points:
+        - ref: mirror_main_pinkie_bottom
+          shift: [-14, -12]
+        - ref: mirror_main_pinkie_top
+          shift: [-14, 12]
+        - ref: mirror_main_ring_top
+          shift: [-5, 14]
+        - ref: mirror_main_middle_top
+          shift: [0, 15]
+        - ref: mirror_main_index_top
+          shift: [0, 15]
+        - ref: mirror_main_far_top
+          shift: [13, 15]
+        - ref: mirror_main_far_bottom
+          shift: [13, 10]
+        - ref: mirror_thumb_key_up_left_top
+          shift: [0, 14]
+        - ref: mirror_thumb_key_up_right_top
+          shift: [14, 13]
+        - ref: mirror_space_bar
+          shift: [24, -14]
+        - ref: mirror_thumb_layer_bottom
+          shift: [-10, -14]
+        - ref: mirror_main_index_bottom
+          shift: [-12, -18]
+  preview_left:
+    - what: outline
+      name: board_left
+    - what: outline
+      name: raw
+      operation: subtract
+  preview_right:
+    - what: outline
+      name: board_right
+    - what: outline
+      name: raw
+      operation: subtract
+
+
+  
