@@ -11,7 +11,7 @@
 		(company "tuantran39")
 	)
 	(lib_symbols)
-	(text "The left-side's RP2040 board is power supplied \nby the USB-C cable from the PC."
+	(text "The left-side's RP2040 board is power supplied \nby a USB-C cable from the PC."
 		(exclude_from_sim yes)
 		(at 42.164 25.146 0)
 		(effects
