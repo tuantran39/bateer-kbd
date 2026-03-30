@@ -554,9 +554,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "This is the JST PH 2.0mm SMT Header\nwhich is connected to Waveshare 1.54inch e-Paper Module"
+	(text "This is the JST PH 2.0mm SMT Header which is connected to \nthe Waveshare 1.54inch e-Paper Module (SKU 12955)"
 		(exclude_from_sim no)
-		(at 118.11 36.83 0)
+		(at 109.22 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -739,7 +739,7 @@
 		(cells
 			(table_cell "Pin"
 				(exclude_from_sim no)
-				(at 117.856 41.402 0)
+				(at 108.966 41.402 0)
 				(size 7.62 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -756,7 +756,7 @@
 			)
 			(table_cell "Symbol"
 				(exclude_from_sim no)
-				(at 125.476 41.402 0)
+				(at 116.586 41.402 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -773,7 +773,7 @@
 			)
 			(table_cell "Description"
 				(exclude_from_sim no)
-				(at 145.796 41.402 0)
+				(at 136.906 41.402 0)
 				(size 36.83 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -790,7 +790,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 117.856 45.212 0)
+				(at 108.966 45.212 0)
 				(size 7.62 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -807,7 +807,7 @@
 			)
 			(table_cell "E-INK_VCC"
 				(exclude_from_sim no)
-				(at 125.476 45.212 0)
+				(at 116.586 45.212 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -824,7 +824,7 @@
 			)
 			(table_cell "3.3V/5V"
 				(exclude_from_sim no)
-				(at 145.796 45.212 0)
+				(at 136.906 45.212 0)
 				(size 36.83 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -841,7 +841,7 @@
 			)
 			(table_cell "2"
 				(exclude_from_sim no)
-				(at 117.856 49.022 0)
+				(at 108.966 49.022 0)
 				(size 7.62 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -858,7 +858,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 125.476 49.022 0)
+				(at 116.586 49.022 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -875,7 +875,7 @@
 			)
 			(table_cell "Ground"
 				(exclude_from_sim no)
-				(at 145.796 49.022 0)
+				(at 136.906 49.022 0)
 				(size 36.83 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -892,7 +892,7 @@
 			)
 			(table_cell "3"
 				(exclude_from_sim no)
-				(at 117.856 52.832 0)
+				(at 108.966 52.832 0)
 				(size 7.62 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -909,7 +909,7 @@
 			)
 			(table_cell "E-INK_MOSI"
 				(exclude_from_sim no)
-				(at 125.476 52.832 0)
+				(at 116.586 52.832 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -926,7 +926,7 @@
 			)
 			(table_cell "SPI MOSI Pin"
 				(exclude_from_sim no)
-				(at 145.796 52.832 0)
+				(at 136.906 52.832 0)
 				(size 36.83 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -943,7 +943,7 @@
 			)
 			(table_cell "4"
 				(exclude_from_sim no)
-				(at 117.856 56.642 0)
+				(at 108.966 56.642 0)
 				(size 7.62 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -960,7 +960,7 @@
 			)
 			(table_cell "E-INK_SCK"
 				(exclude_from_sim no)
-				(at 125.476 56.642 0)
+				(at 116.586 56.642 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -977,7 +977,7 @@
 			)
 			(table_cell "SPI SCK Pin"
 				(exclude_from_sim no)
-				(at 145.796 56.642 0)
+				(at 136.906 56.642 0)
 				(size 36.83 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -994,7 +994,7 @@
 			)
 			(table_cell "5"
 				(exclude_from_sim no)
-				(at 117.856 60.452 0)
+				(at 108.966 60.452 0)
 				(size 7.62 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1011,7 +1011,7 @@
 			)
 			(table_cell "E-INK_CS"
 				(exclude_from_sim no)
-				(at 125.476 60.452 0)
+				(at 116.586 60.452 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1028,7 +1028,7 @@
 			)
 			(table_cell "SPI Chip Selection, low active"
 				(exclude_from_sim no)
-				(at 145.796 60.452 0)
+				(at 136.906 60.452 0)
 				(size 36.83 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1045,7 +1045,7 @@
 			)
 			(table_cell "6"
 				(exclude_from_sim no)
-				(at 117.856 64.262 0)
+				(at 108.966 64.262 0)
 				(size 7.62 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1062,7 +1062,7 @@
 			)
 			(table_cell "E-INK_DC"
 				(exclude_from_sim no)
-				(at 125.476 64.262 0)
+				(at 116.586 64.262 0)
 				(size 20.32 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1079,7 +1079,7 @@
 			)
 			(table_cell "Data/Command (high for data, low for command)"
 				(exclude_from_sim no)
-				(at 145.796 64.262 0)
+				(at 136.906 64.262 0)
 				(size 36.83 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1096,7 +1096,7 @@
 			)
 			(table_cell "7"
 				(exclude_from_sim no)
-				(at 117.856 70.612 0)
+				(at 108.966 70.612 0)
 				(size 7.62 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1113,7 +1113,7 @@
 			)
 			(table_cell "E-INK_RST"
 				(exclude_from_sim no)
-				(at 125.476 70.612 0)
+				(at 116.586 70.612 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1130,7 +1130,7 @@
 			)
 			(table_cell "External reset, low active"
 				(exclude_from_sim no)
-				(at 145.796 70.612 0)
+				(at 136.906 70.612 0)
 				(size 36.83 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1147,7 +1147,7 @@
 			)
 			(table_cell "8"
 				(exclude_from_sim no)
-				(at 117.856 74.422 0)
+				(at 108.966 74.422 0)
 				(size 7.62 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1164,7 +1164,7 @@
 			)
 			(table_cell "E-INK_BUSY"
 				(exclude_from_sim no)
-				(at 125.476 74.422 0)
+				(at 116.586 74.422 0)
 				(size 20.32 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -1181,7 +1181,7 @@
 			)
 			(table_cell "Busy status output, high active"
 				(exclude_from_sim no)
-				(at 145.796 74.422 0)
+				(at 136.906 74.422 0)
 				(size 36.83 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
