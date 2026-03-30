@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "55cf0169-93cc-43d0-ab3e-a68d507df03d")
-	(paper "A4")
+	(paper "A5")
 	(title_block
 		(title "Bateer The One rev1")
 		(date "2026-03-30")
@@ -11,9 +11,20 @@
 		(company "tuantran39")
 	)
 	(lib_symbols)
+	(text "The left-side's RP2040 board is power supplied \nby the USB-C cable from the PC."
+		(exclude_from_sim yes)
+		(at 42.164 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b16ffd4-b2e6-438f-9472-3a34dbe5d4c6")
+	)
 	(wire
 		(pts
-			(xy 140.97 57.15) (xy 167.64 57.15)
+			(xy 82.55 41.91) (xy 105.41 41.91)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +34,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 64.77) (xy 167.64 64.77)
+			(xy 148.59 53.34) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b045b0b-ecda-486f-afa0-07f968f4e09e")
+	)
+	(wire
+		(pts
+			(xy 144.78 53.34) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8dd6bc-5055-4431-a91c-558bc5287ee9")
+	)
+	(wire
+		(pts
+			(xy 82.55 49.53) (xy 105.41 49.53)
 		)
 		(stroke
 			(width 0)
@@ -33,7 +64,57 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 52.07) (xy 167.64 52.07)
+			(xy 140.97 53.34) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e18ffd9-447a-4a69-9480-9dcb6a71a340")
+	)
+	(wire
+		(pts
+			(xy 156.21 53.34) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b07c9b4-62da-4373-bd7b-42f9ca71efb1")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9585b02f-13da-45c0-a68e-c56b1fbb6b84")
+	)
+	(wire
+		(pts
+			(xy 152.4 53.34) (xy 152.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9755f151-e614-4751-8080-7457a98c2826")
+	)
+	(wire
+		(pts
+			(xy 160.02 53.34) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbfb2b1-4d29-4521-8961-946c1cca5c6e")
+	)
+	(wire
+		(pts
+			(xy 82.55 36.83) (xy 105.41 36.83)
 		)
 		(stroke
 			(width 0)
@@ -42,8 +123,8 @@
 		(uuid "ed21ae20-a162-402a-a688-9703e1974bf3")
 	)
 	(sheet
-		(at 167.64 46.99)
-		(size 44.45 21.59)
+		(at 105.41 31.75)
+		(size 67.31 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -58,7 +139,7 @@
 		)
 		(uuid "764a64d6-c8c0-49aa-9897-3006b087038b")
 		(property "Sheetname" "right-side"
-			(at 167.64 46.2784 0)
+			(at 105.41 31.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -69,7 +150,7 @@
 			)
 		)
 		(property "Sheetfile" "right-side.kicad_sch"
-			(at 167.64 69.1646 0)
+			(at 105.41 53.9246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -80,8 +161,8 @@
 				(justify left top)
 			)
 		)
-		(pin "UART1_RIGHT_TX" input
-			(at 167.64 52.07 180)
+		(pin "UART1_RIGHT_TX" output
+			(at 105.41 36.83 180)
 			(uuid "6cc16e6a-3377-456c-a4f5-e4c02de9c2a5")
 			(effects
 				(font
@@ -91,7 +172,7 @@
 			)
 		)
 		(pin "UART1_RIGHT_RX" input
-			(at 167.64 57.15 180)
+			(at 105.41 41.91 180)
 			(uuid "9d3a742f-9e19-4641-8672-5dfb58ea7eb1")
 			(effects
 				(font
@@ -101,8 +182,78 @@
 			)
 		)
 		(pin "VSYS_RIGHT" input
-			(at 167.64 64.77 180)
+			(at 105.41 49.53 180)
 			(uuid "deba9cc8-ef38-44b3-bf71-96ec840188f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-INK_RST" output
+			(at 148.59 53.34 270)
+			(uuid "6892bb4d-d036-4535-b287-fa8dc3bdd1cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-INK_BUSY" input
+			(at 144.78 53.34 270)
+			(uuid "a85d74c6-543f-4c65-8f8a-8269ac0e4576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-INK_DC" output
+			(at 140.97 53.34 270)
+			(uuid "8f1d6c63-b5a5-4a82-aaa6-fc3c77ad51a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-INK_VCC" output
+			(at 137.16 53.34 270)
+			(uuid "fa7aacc7-2b2b-470a-abdc-a9ad6c75dd41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-INK_SCK" output
+			(at 156.21 53.34 270)
+			(uuid "c6dc9333-f3fd-4f05-8de2-a5cac52e5f25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-INK_CS" output
+			(at 152.4 53.34 270)
+			(uuid "7aaadbd4-4e46-4a69-ac99-ee1945a83b55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E-INK_MOSI" output
+			(at 160.02 53.34 270)
+			(uuid "fa2995d8-8f7c-4bc8-b4de-d860f2ea7e22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,7 +270,123 @@
 		)
 	)
 	(sheet
-		(at 100.33 46.99)
+		(at 105.41 68.58)
+		(size 67.31 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e7038bf0-c111-46c4-9a1b-10e055a248b6")
+		(property "Sheetname" "e-ink-display"
+			(at 105.41 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "e-ink-display.kicad_sch"
+			(at 105.41 92.0246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "E-INK_BUSY" output
+			(at 144.78 68.58 90)
+			(uuid "90edf242-075d-4cd9-9eef-f3b7791a92c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E-INK_CS" input
+			(at 152.4 68.58 90)
+			(uuid "aefcfcc1-f53e-4721-a27b-f876e443e79c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E-INK_DC" input
+			(at 140.97 68.58 90)
+			(uuid "f1e8431c-3394-4f85-b35f-d41a05ee8052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E-INK_MOSI" input
+			(at 160.02 68.58 90)
+			(uuid "8d04d83b-67e6-4680-bd3e-76a434616902")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E-INK_RST" input
+			(at 148.59 68.58 90)
+			(uuid "c5f59b19-28d3-4c4b-8e61-e984484f346e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E-INK_SCK" input
+			(at 156.21 68.58 90)
+			(uuid "6b1227c5-d4d7-48fb-8b5a-42c535f0507c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E-INK_VCC" input
+			(at 137.16 68.58 90)
+			(uuid "8f91ea39-50fa-482a-a02f-f9aa8371de94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bateer_the-one"
+				(path "/55cf0169-93cc-43d0-ab3e-a68d507df03d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 31.75)
 		(size 40.64 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -134,7 +401,7 @@
 		)
 		(uuid "edb660bf-0199-4a2e-a749-a1a356a8fceb")
 		(property "Sheetname" "left-side"
-			(at 100.33 46.2784 0)
+			(at 41.91 31.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -145,7 +412,7 @@
 			)
 		)
 		(property "Sheetfile" "left-side.kicad_sch"
-			(at 100.076 154.686 0)
+			(at 41.656 139.446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -156,8 +423,8 @@
 				(justify left top)
 			)
 		)
-		(pin "UART1_LEFT_TX" input
-			(at 140.97 57.15 0)
+		(pin "UART1_LEFT_TX" output
+			(at 82.55 41.91 0)
 			(uuid "4556f698-f17c-427e-86b8-dcc176240125")
 			(effects
 				(font
@@ -167,7 +434,7 @@
 			)
 		)
 		(pin "UART1_LEFT_RX" input
-			(at 140.97 52.07 0)
+			(at 82.55 36.83 0)
 			(uuid "177c3324-d69d-4c5a-966b-50c4e44172f1")
 			(effects
 				(font
@@ -176,8 +443,8 @@
 				(justify right)
 			)
 		)
-		(pin "VSYS_LEFT" input
-			(at 140.97 64.77 0)
+		(pin "VSYS_LEFT" output
+			(at 82.55 49.53 0)
 			(uuid "faaa07a1-f476-4a99-b6c6-c96b1a368b68")
 			(effects
 				(font

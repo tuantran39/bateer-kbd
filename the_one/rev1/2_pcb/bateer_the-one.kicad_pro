@@ -470,7 +470,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "MCU_RaspberryPi"
+      "MCU_RaspberryPi",
+      "MCU_RaspberryPi_and_Boards"
     ]
   },
   "meta": {
@@ -634,7 +635,7 @@
         "uuid": "55cf0169-93cc-43d0-ab3e-a68d507df03d"
       }
     ],
-    "used_designators": "U2,#PWR1-6,SW20-38,D20-38",
+    "used_designators": "#FLG1-3,J1,#PWR1-3,#PWR7",
     "variants": []
   },
   "sheets": [
@@ -649,6 +650,10 @@
     [
       "764a64d6-c8c0-49aa-9897-3006b087038b",
       "right-side"
+    ],
+    [
+      "e7038bf0-c111-46c4-9a1b-10e055a248b6",
+      "e-ink-display"
     ]
   ],
   "text_variables": {},
