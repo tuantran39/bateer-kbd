@@ -74,6 +74,8 @@ The e-Ink display I selected for this keyboard is **Waveshare 1.54inch e-Paper M
 
 ### b. Schematics
 
+You can use KiCad to view the following schematics by opening the file `bateer_the-one.kicad_pro` in `./2_pcb/` folder.
+
 #### Overview
 ![Overview schematics](https://tuantran39.github.io/bateer-kbd/images/the-one/rev1/bateer_the-one.svg)
 
@@ -91,7 +93,9 @@ The e-Ink display I selected for this keyboard is **Waveshare 1.54inch e-Paper M
 
 ## 3. Firmware
 
+I stored the firmware binaries which are used to flash into the RP2040 boards in the `./3_firmware/` folder.
 
+However, if you are interested in their source code, please visit this repo [bateer-qmk-fw](https://github.com/tuantran39/bateer-qmk-fw), which is also an open-source project of mine.
 
 ## 4. Cases & housing
 
