@@ -3096,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Value" "Pico"
+		(property "Value" "RP2040"
 			(at 228.6 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
