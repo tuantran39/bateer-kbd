@@ -31,6 +31,7 @@ You can find the Ergogen files in [1_layout](./1_layout/) folder, including:
 > Therefore, I want to avoid this kind of 'automation', not because Ergogen feature was bad or limited, but because ... I want to :D
 > 
 > So, I decided to skip this block in the YAML file and started a new KiCad project instead.
+![Layout design with Ergogen](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one_layout.png)
 
 ## 2. Schematics & PCB
 
@@ -47,7 +48,45 @@ You can find the KiCad project as well as related resources in [2_pcb](./2_pcb/)
 - For external footprint libraries, I stored them in [footprints](./2_pcb/footprints/) folder.
 - For external 3D assets, I stored them in [3dmodels](./2_pcb/3dmodels/) folder.
 
-The above libraries were imported into the KiCad project using relative path `${KIPRJMOD}`, so they should work in your computer. 
+The above libraries were imported into the KiCad project using relative path `${KIPRJMOD}`, so they should work in your computer.
+
+### a. Concepts
+
+My plan was to use two Raspberry Pi RP2040 development boards for left and right sides.
+
+The left-side board is powered from the connected PC through a USB-C cable, then shares the VSYS line with the righ-side board.
+
+The communication between these two boards will be UART, where left-board acts as a **master node**, which:
+- scans which keys on the left side are pressed. 
+- receives key pressed signals from the right-side board.
+- sends key press status to the PC.
+
+The right-board acts as a **slave** node, which:
+- scans which keys on the right side are pressed.
+- sends key press status to the left-board.
+- supplies power to e-Ink display.
+- sends commands and data to the e-Ink display with the SPI protocol.
+
+Each key is registered and recognized by a row-column matrix. You can learn more about the matrix [here](https://docs.qmk.fm/how_a_matrix_works).
+
+The e-Ink display I selected for this keyboard is **Waveshare 1.54inch e-Paper Module (SKU 12955)**.
+
+### b. Schematics
+
+#### Overview
+![Overview schematics](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one.svg)
+
+#### Left side
+![Left side schematics](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one-left-side.svg)
+
+#### Right side
+![Right side schematics](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one-right-side.svg)
+
+#### e-Ink Display connector
+![e-Ink display schematics](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one-e-ink-display.svg)
+
+### c. PCB
+
 
 ## 3. Cases & housing
 
