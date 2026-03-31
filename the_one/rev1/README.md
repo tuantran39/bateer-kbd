@@ -31,7 +31,8 @@ You can find the Ergogen files in [1_layout](./1_layout/) folder, including:
 > Therefore, I want to avoid this kind of 'automation', not because Ergogen feature was bad or limited, but because ... I want to :D
 > 
 > So, I decided to skip this block in the YAML file and started a new KiCad project instead.
-![Layout design with Ergogen](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one_layout.png)
+
+![Layout design with Ergogen](https://tuantran39.github.io/bateer-kbd/images/the-one/rev1/bateer_the-one_layout.png)
 
 ## 2. Schematics & PCB
 
@@ -74,26 +75,33 @@ The e-Ink display I selected for this keyboard is **Waveshare 1.54inch e-Paper M
 ### b. Schematics
 
 #### Overview
-![Overview schematics](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one.svg)
+![Overview schematics](https://tuantran39.github.io/bateer-kbd/images/the-one/rev1/bateer_the-one.svg)
 
 #### Left side
-![Left side schematics](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one-left-side.svg)
+![Left side schematics](https://tuantran39.github.io/bateer-kbd/images/the-one/rev1/bateer_the-one-left-side.svg)
 
 #### Right side
-![Right side schematics](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one-right-side.svg)
+![Right side schematics](https://tuantran39.github.io/bateer-kbd/images/the-one/rev1/bateer_the-one-right-side.svg)
 
 #### e-Ink Display connector
-![e-Ink display schematics](https://tuantran39.github.io/bateer-kbd/images/bateer_the-one-e-ink-display.svg)
+![e-Ink display schematics](https://tuantran39.github.io/bateer-kbd/images/the-one/rev1/bateer_the-one-e-ink-display.svg)
 
 ### c. PCB
 
 
-## 3. Cases & housing
+## 3. Firmware
 
 
 
-## 4. Bill-Of-Material (BOM) & purchasing
+## 4. Cases & housing
 
 
 
-## 5. Build the keyboard 
+## 5. Bill-Of-Material (BOM) & purchasing
+
+
+
+## 6. Build the keyboard 
+
+Please check [How to build](./5_build/how-to-build.md) document to build your keyboard. Good luck! :)
+
