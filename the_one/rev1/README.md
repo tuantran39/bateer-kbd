@@ -1,4 +1,4 @@
-# About 'rev1'
+# About: The One rev1
 
 ## 1. Layout
 
@@ -74,7 +74,7 @@ The e-Ink display I selected for this keyboard is **Waveshare 1.54inch e-Paper M
 
 ### b. Schematics
 
-You can use KiCad to view the following schematics by opening the file `bateer_the-one.kicad_pro` in `./2_pcb/` folder.
+You can use KiCad to view the following schematics by opening the file `bateer_the-one.kicad_sch` in `./2_pcb/` folder.
 
 #### Overview
 ![Overview schematics](https://tuantran39.github.io/bateer-kbd/images/the-one/rev1/bateer_the-one.svg)
