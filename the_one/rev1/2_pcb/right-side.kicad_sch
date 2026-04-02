@@ -1585,10 +1585,6 @@
 		(uuid "fc61b6d2-1414-4a9d-9eba-d81cea1dd7db")
 	)
 	(no_connect
-		(at 246.38 57.15)
-		(uuid "020a56d2-80a9-44b4-9103-bb734f79bb17")
-	)
-	(no_connect
 		(at 210.82 67.31)
 		(uuid "18a9000e-ba3b-491f-bf56-960155d86743")
 	)
@@ -1599,6 +1595,10 @@
 	(no_connect
 		(at 231.14 110.49)
 		(uuid "22b929cb-d2e3-458c-b717-9b5137e76907")
+	)
+	(no_connect
+		(at 246.38 59.69)
+		(uuid "307e3b39-8dd5-4b54-a981-015a08df328b")
 	)
 	(no_connect
 		(at 246.38 64.77)
@@ -2136,6 +2136,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 57.15) (xy 252.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855e90d6-f341-4d5b-a4a6-b01dd511c0ad")
+	)
+	(wire
+		(pts
 			(xy 80.01 39.37) (xy 80.01 52.07)
 		)
 		(stroke
@@ -2213,16 +2223,6 @@
 			(type default)
 		)
 		(uuid "9259422a-104e-4081-80e1-09ffeaff9bba")
-	)
-	(wire
-		(pts
-			(xy 246.38 59.69) (xy 252.73 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93be7418-b1ed-4cba-b6b8-2e221a8efb74")
 	)
 	(wire
 		(pts
@@ -3041,9 +3041,9 @@
 		)
 		(uuid "bae83df6-651f-496d-a33c-4bb4cfcf8b89")
 	)
-	(hierarchical_label "VSYS_RIGHT"
+	(hierarchical_label "VBUS_RIGHT"
 		(shape input)
-		(at 252.73 59.69 0)
+		(at 252.73 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)

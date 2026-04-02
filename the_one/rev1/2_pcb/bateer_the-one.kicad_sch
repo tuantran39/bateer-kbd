@@ -181,7 +181,7 @@
 				(justify left)
 			)
 		)
-		(pin "VSYS_RIGHT" input
+		(pin "VBUS_RIGHT" input
 			(at 105.41 36.83 180)
 			(uuid "deba9cc8-ef38-44b3-bf71-96ec840188f5")
 			(effects
@@ -443,7 +443,7 @@
 				(justify right)
 			)
 		)
-		(pin "VSYS_LEFT" output
+		(pin "VBUS_LEFT" output
 			(at 82.55 36.83 0)
 			(uuid "faaa07a1-f476-4a99-b6c6-c96b1a368b68")
 			(effects

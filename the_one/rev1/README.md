@@ -55,7 +55,7 @@ The above libraries were imported into the KiCad project using relative path `${
 
 My plan was to use two Raspberry Pi RP2040 development boards for left and right sides.
 
-The left-side board is powered from the connected PC through a USB-C cable, then shares the VSYS line with the righ-side board.
+The left-side board is powered from the connected PC through a USB-C cable, then shares the VBUS line with the righ-side board.
 
 The communication between these two boards will be UART, where left-board acts as a **master node**, which:
 - scans which keys on the left side are pressed. 
